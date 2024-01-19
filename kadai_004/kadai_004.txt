@@ -1,0 +1,27 @@
+PS C:\Users\yukiy> cd C:\Users\yukiy\OneDrive\デスクトップ\GitHub_Tutorial
+PS C:\Users\yukiy\OneDrive\デスクトップ\GitHub_Tutorial> mkdir git_challenge                   
+
+
+    ディレクトリ: C:\Users\yukiy\OneDrive\デスクトップ\GitHub_Tutorial
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/01/14     23:04                git_challenge
+
+
+PS C:\Users\yukiy\OneDrive\デスクトップ\GitHub_Tutorial> cd git_challenge
+PS C:\Users\yukiy\OneDrive\デスクトップ\GitHub_Tutorial\git_challenge> echo "Hello, World!" >hello_world.txt
+PS C:\Users\yukiy\OneDrive\デスクトップ\GitHub_Tutorial\git_challenge> git add hello_world.txt
+PS C:\Users\yukiy\OneDrive\デスクトップ\GitHub_Tutorial\git_challenge> git commit -m "hell_world.txtを追加"
+[main (root-commit) 6716fec] hell_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 git_challenge/hello_world.txt
+PS C:\Users\yukiy\OneDrive\デスクトップ\GitHub_Tutorial\git_challenge> echo "こんにちは、　世界！" >>hello_world.txt
+PS C:\Users\yukiy\OneDrive\デスクトップ\GitHub_Tutorial\git_challenge> git add hello_world.txt
+PS C:\Users\yukiy\OneDrive\デスクトップ\GitHub_Tutorial\git_challenge> git commit -m "日本語訳を日本語訳を追記"
+[main cd96394] 日本語訳を日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\yukiy\OneDrive\デスクトップ\GitHub_Tutorial\git_challenge> git log --oneline hello_world.txt
+cd96394 (HEAD -> main) 日本語訳を日本語訳を追記
+6716fec hell_world.txtを追加
